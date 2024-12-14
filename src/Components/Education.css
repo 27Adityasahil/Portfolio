@@ -1,0 +1,47 @@
+.education-container{
+    width: 90%;
+    border: 1px solid red;
+    background-color: #414141;
+    color: azure;
+    margin: 100px auto;
+}
+
+.education-outer-box{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 90%;
+    box-shadow: 3px 2px red;
+    display: block;
+    justify-content: center;
+    height: 5px;
+    transition: all ease 0.3s;
+}
+hr:hover{
+    transform: rotateY(45deg);
+}
+.degree{
+    margin: 5px;
+    display: flex;
+    padding: 0.5em;
+    transition: all ease-in 0.3s;
+}
+.degree:hover{
+    transform: scaleY(1.3);
+}
+.inst-details{
+    padding: 0 10px;
+}
+.inst-img{
+    width: 5em;
+}
+.inst-name, .degree-name, .duration {
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px){
+    .education-container{
+        margin: 10px auto;
+    }
+}

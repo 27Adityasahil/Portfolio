@@ -1,0 +1,38 @@
+/* Default styles for desktop */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.education-and-skills {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .education-and-skills .section-head {
+    color: blueviolet;
+    font-size: 1.5em;
+  }
+  
+  .navbar {
+    z-index: 1000; /* Ensure navbar is always above content */
+  }
+  
+  /* Media query for mobile screens */
+  @media only screen and (max-width: 600px) {
+    .education-and-skills {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .education-and-skills h3 {
+      text-align: center;
+    }
+    .education-sec {
+      margin-bottom: 1px;
+    }
+  
+    .navbar-collapse {
+      background-color: #ffffff; /* Make sure navbar is visible on small screens */
+    }
+  }
+  

@@ -1,0 +1,63 @@
+.Insta-container{
+    width: 90%;
+    background-color: #333333;
+    border: 2px solid hotpink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.outer-box{
+    width: 90%;
+    background-color: #ffffff;
+    padding: 1em;
+    border-radius: 12px;
+    margin: 5px;
+}
+
+.head-section{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+}
+.head-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin: 0 4px;
+    padding: 0;
+    align-items: left;
+    justify-content: center;
+    
+}
+.username{
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#skill-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.skill-desc img{
+width: 4em;
+margin: 0.3%;
+padding: 4px;
+transition: all ease-in-out 0.2s;
+}
+.skill-desc img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.skills-details h4{
+
+    font-size: 1.2rem;
+    color: rgb(39, 238, 238);
+    transition: all ease-in-out 0.4s;
+}
+.skills-details h4:hover{
+    transform: scale(1.09) ;
+}

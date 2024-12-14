@@ -1,0 +1,32 @@
+.about-container{
+    width: 90%;
+    border: 1px solid red;
+    padding: 1em;
+    margin: auto;
+}
+.inner-about{
+    display: flex;
+}
+.profile-image{
+    width: 20%;
+    border-radius: 12px;
+    box-shadow: 3px 6px 8px black;
+}
+.about-me{
+    padding: 0 3%;
+    font-size: 2em;
+}
+@media only screen and (max-width: 600px){
+    .inner-about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-image{
+        width: 80%;
+        box-shadow: 3px 6px 8px black;
+    }
+    .about-me{
+        font-size: 1em;
+    }
+}
