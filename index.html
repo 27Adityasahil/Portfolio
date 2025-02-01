@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Raj - Portfolio</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Typed.js (Typing Effect) -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- GSAP (Animations) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js"></script> -->
+  </head>
+  <body>
+    <nav>
+      <div class="glass-navbar">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <section class="hero" id="hero">
+      <!-- Your Image -->
+      <div class="hero-img">
+        <img src="/assets/profile pic.jpg" alt="Aditya Raj" />
+      </div>
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <h1>Hi, I'm <span>Aditya Raj.</span> 👋</h1>
+        <p>I am <span id="typing-text"></span></p>
+        <div class="btn-container">
+          <a href="#projects" class="btn">View My Work</a>
+          <a href="#contact" class="btn btn-alt">Hire Me</a>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-container">
+        <!-- Left Side: Image -->
+        <div class="about-img">
+          <img src="/assets/profile pic.jpg" alt="Aditya Raj" />
+        </div>
+        <!-- Right Side: Content -->
+        <div class="about-content">
+          <h2>About <span>Me</span></h2>
+          <p>
+            I'm a passionate Web Developer and Open Source Contributor. I
+            specialize in creating **modern, responsive** websites with **HTML,
+            CSS, JavaScript**, and **C++**. Currently, I'm exploring **Java**
+            and building cool projects to sharpen my skills. 🚀
+          </p>
+
+          <div class="skills">
+            <h3>My Skills</h3>
+            <div class="skill-icons">
+              <img src="/assets/html-5.png" alt="HTML" />
+              <img src="/assets/css-3.png" alt="CSS" />
+              <img src="/assets/js.png" alt="JavaScript" />
+              <img src="/assets/c++.png" alt="C++" />
+              <img src="/assets/java.png" alt="Java" />
+              <img src="/assets/github.png" alt="GitHub" />
+            </div>
+          </div>
+          <a href="your-resume.pdf" download class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>My <span>Projects</span></h2>
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="/assets/portfolio.png" alt="Project 1" />
+          <h3>Portfolio Website</h3>
+          <p>
+            A sleek and modern personal portfolio to showcase my skills and
+            projects.
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/27Adityasahil/portfolio"
+              target="_blank"
+              class="btn"
+              >GitHub</a
+            >
+            <a
+              href="https://yourportfolio.com"
+              target="_blank"
+              class="btn btn-alt"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="project2.jpg" alt="Project 2" />
+          <h3>Weather App</h3>
+          <p>A real-time weather app using JavaScript and OpenWeather API.</p>
+          <div class="project-links">
+            <a
+              href="https://github.com/yourusername/weather-app"
+              target="_blank"
+              class="btn"
+              >GitHub</a
+            >
+            <a
+              href="https://yourweatherapp.com"
+              target="_blank"
+              class="btn btn-alt"
+              >Live Demo</a
+            >
+          </div>
+        </div>
+
+        <!-- Add more projects here -->
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <h2>My <span>Skills</span></h2>
+      <div class="skills-container">
+        <!-- Skill 1 -->
+        <div class="skill-card">
+          <img src="/assets/html-5.png" alt="HTML" />
+          <h3>HTML</h3>
+          <div class="progress-bar"><div class="progress html"></div></div>
+        </div>
+
+        <!-- Skill 2 -->
+        <div class="skill-card">
+          <img src="/assets/css-3.png" alt="CSS" />
+          <h3>CSS</h3>
+          <div class="progress-bar"><div class="progress css"></div></div>
+        </div>
+
+        <!-- Skill 3 -->
+        <div class="skill-card">
+          <img src="/assets/js.png" alt="JavaScript" />
+          <h3>JavaScript</h3>
+          <div class="progress-bar"><div class="progress js"></div></div>
+        </div>
+        <!-- Skill 4 -->
+        <div class="skill-card">
+          <img src="/assets/java.png" alt="java" />
+          <h3>JAVA</h3>
+          <div class="progress-bar">
+            <div class="progress java"></div>
+          </div>
+        </div>
+        <!-- Skill 5 -->
+        <div class="skill-card">
+          <img src="/assets/c++.png" alt="CPP" />
+          <h3>C++</h3>
+          <div class="progress-bar"><div class="progress cpp"></div></div>
+        </div>
+        <!-- Skill 6 -->
+        <div class="skill-card">
+          <img src="/assets/c.png" alt="C" />
+          <h3>C</h3>
+          <div class="progress-bar"><div class="progress c"></div></div>
+        </div>
+
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Check My Resume</p>
+        </div>
+
+        <div class="row">
+          <!-- Left Column (Summary & Education) -->
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Aditya Raj</h4>
+              <p>
+                <em
+                  >Innovative and deadline-driven Web Developer with experience
+                  in designing and developing user-centered websites.</em
+                >
+              </p>
+              <ul>
+                <li>Bihar, India</li>
+                <li>adityasahil2701@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology (B.Tech) in CSE</h4>
+              <h5>2022 - 2026</h5>
+              <p><em>Bengal College of Engineering & Technology</em></p>
+              <p>
+                Currently pursuing a Bachelor's degree in Computer Science &
+                Engineering, focusing on web development, algorithms, and
+                software engineering.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column (Experience) -->
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>Open Source Contributor</h4>
+              <h5>2023 - Present</h5>
+              <p><em>GitHub & Open Source Projects</em></p>
+              <ul>
+                <li>
+                  Contributed to various open-source projects, including web
+                  development and software optimization.
+                </li>
+                <li>
+                  Successfully completed Hacktoberfest with multiple merged pull
+                  requests.
+                </li>
+                <li>
+                  Actively collaborating on GitHub repositories and
+                  community-driven projects.
+                </li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>YouTube Content Creator</h4>
+              <h5>2024 - Present</h5>
+              <p><em>YouTube Channel (Coding & Development)</em></p>
+              <ul>
+                <li>
+                  Teaching Git, HTML, CSS, and DSA concepts through video
+                  tutorials.
+                </li>
+                <li>
+                  Created a structured curriculum for beginners in web
+                  development.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact <span>Me</span></h2>
+      <p>Have a question or want to work together? Drop me a message!</p>
+
+      <div class="contact-container">
+        <!-- Contact Form -->
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <!-- Social Media Links -->
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>
+            Email:
+            <a href="mailto:adityasahil2701@gmail.com"
+              >adityasahil2701@gmail.com</a
+            >
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/27Adityasahil" target="_blank"
+              >github.com/27Adityasahil</a
+            >
+          </p>
+          <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/adityar27/" target="_blank"
+              >linkedin.com/in/adityar27/</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-social">
+          <!-- Quick Links -->
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- Social Media Links -->
+          <div class="social-icons">
+            <a href="https://github.com/27Adityasahil" target="_blank"
+              ><img src="/assets/github.png" alt="GitHub"
+            /></a>
+            <a href="https://www.linkedin.com/in/adityar27/" target="_blank"
+              ><img src="/assets/linkedin.png" alt="LinkedIn"
+            /></a>
+            <a href="https://x.com/SAditya_27" target="_blank"
+              ><img src="/assets/twitter (1).png" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <p>© 2025 Aditya Raj | All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
