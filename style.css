@@ -42,11 +42,11 @@ nav {
   background: linear-gradient(to left, #141e30, #243b55);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  position: fixed; /* Keeps the navbar fixed in place */
-  top: 0; /* Makes sure it's at the top of the page */
-  left: 50%; /* Centers it horizontally */
-  transform: translateX(-50%); /* Adjusts the position from the left */
-  z-index: 9999; /* Ensures it's at the front of the page */
+  position: fixed; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 9999;
 }
 
 /* Navbar links */
@@ -178,6 +178,14 @@ nav {
   font-size: 36px;
   margin-bottom: 10px;
 }
+.text-styling{
+  color: #00d4ff;
+  font-size: 1em;
+}
+.lang{
+  color: #00d4ff;
+  text-decoration: underline;
+}
 .about-content h2 span {
   color: #00d4ff;
   font-weight: bold;
@@ -203,6 +211,7 @@ nav {
   transition: transform 0.3s;
 }
 .skill-icons img:hover {
+  cursor: grab;
   transform: scale(1.1);
 }
 .btn {
