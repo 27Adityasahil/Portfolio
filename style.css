@@ -13,24 +13,6 @@ nav {
   display: flex;
   justify-content: center;
 }
-/* .glass-navbar {
-  margin-top: 1%;
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  padding: 15px 30px;
-  /* background: rgba(255, 255, 255, 0.1); 
-  background: linear-gradient(to left, #141E30, #243B55);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  position: fixed;
-}
-.glass-navbar a {
-  margin: 0 3%;
-  color: #F5F5F5;
-  text-decoration: none;
-  font-size: 1em;
-} */
 
 /* Glass Navbar */
 .glass-navbar {
