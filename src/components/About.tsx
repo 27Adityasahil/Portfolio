@@ -26,7 +26,7 @@ const About: React.FC = () => {
           <div className="rounded-lg shadow-xl overflow-hidden">
             <img 
               src="/src/assets/profile.jpg" 
-              alt="Rahul Kumar" 
+              alt="Aditya Raj" 
               className="w-full h-auto object-cover"
               loading="lazy"
             />
