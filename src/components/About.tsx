@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, Briefcase, Code } from 'lucide-react';
+import profile from "../assets/profile.jpg"
 
 const About: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ const About: React.FC = () => {
         >
           <div className="rounded-lg shadow-xl overflow-hidden">
             <img 
-              src="/src/assets/profile.jpg" 
+              src={profile} 
               alt="Aditya Raj" 
               className="w-full h-auto object-cover"
               loading="lazy"

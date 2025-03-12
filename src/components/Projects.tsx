@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code } from 'lucide-react';
 import colorPaletteImg from "../assets/color-palette.png";
+import timeraImg from "../assets/timera.png"
 
 
 interface Project {
@@ -36,19 +37,19 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: "Task Manager App",
-      description: "A to-do list application with features like task categories, due dates, and local storage persistence.",
-      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["JavaScript", "HTML", "CSS", "LocalStorage"],
-      github: "#",
-      demo: "#"
+      title: "Timera",
+      description: "A to-do list application with features like task categories, priorities, pomodoro and local storage persistence.",
+      image: timeraImg,
+      tags: ["JavaScript", "HTML", "CSS", "LocalStorage", "React", "Typescript"],
+      github: "https://github.com/27Adityasahil/Timera",
+      demo: "https://timera.vercel.app/"
     },
     {
       id: 4,
       title: "Color Palette Master",
       description: "A place to pick color with adjustable backgrond to check if it suits with your UI.",
       image: colorPaletteImg,
-      tags: ["JavaScript", "HTML", "CSS", "LocalStorage"],
+      tags: ["React", "JavaScript", "HTML", "CSS"],
       github: "https://github.com/27Adityasahil/color-palette",
       demo: "https://color-palette-aditya.vercel.app/"
     },    
@@ -154,7 +155,7 @@ const Projects: React.FC = () => {
         className="mt-16 text-center"
       >
         <a 
-          href="https://github.com" 
+          href="https://github.com/27Adityasahil" 
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 shadow-lg shadow-blue-600/20"

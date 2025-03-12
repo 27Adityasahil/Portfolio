@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import Profile from '../assets/profile.jpg'
 
 const Hero: React.FC = () => {
   return (
@@ -52,7 +53,7 @@ const Hero: React.FC = () => {
         >
           <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-4 border-blue-500/30 shadow-xl shadow-blue-500/20">
             <img 
-              src="/src/assets/profile.jpg" 
+              src={Profile} 
               alt="Aditya Raj" 
               className="w-full h-full object-cover"
               loading="eager"
