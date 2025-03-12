@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code } from 'lucide-react';
 import colorPaletteImg from "../assets/color-palette.png";
-import timeraImg from "../assets/timera.png"
+import timeraImg from "../assets/timera.png";
+import portfolioImg from "../assets/portfolio.png";
 
 
 interface Project {
@@ -19,12 +20,12 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "Personal Blog Website",
-      description: "A responsive blog website built with HTML, CSS, and JavaScript. Features article listings, categories, and a clean, modern design.",
-      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      github: "#",
-      demo: "#"
+      title: "Personal Portfolio Website",
+      description: "A website to showcase my learnings and experince gained while working on some projects",
+      image: portfolioImg,
+      tags: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "Typescript"],
+      github: "https://github.com/27Adityasahil/Portfolio",
+      demo: "https://saditya.me"
     },
     {
       id: 2,
