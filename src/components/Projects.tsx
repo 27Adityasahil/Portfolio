@@ -4,6 +4,7 @@ import { Github, ExternalLink, Code } from 'lucide-react';
 import colorPaletteImg from "../assets/color-palette.png";
 import timeraImg from "../assets/timera.png";
 import portfolioImg from "../assets/portfolio.png";
+import LoveLOgImg from "../assets/log.png";
 
 
 interface Project {
@@ -29,12 +30,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Weather Dashboard",
-      description: "A simple weather application that fetches real-time weather data from a public API and displays forecasts with a clean UI.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      tags: ["JavaScript", "API", "CSS", "LocalStorage"],
-      github: "#",
-      demo: "#"
+      title: "Love Log",
+      description: "Capture your love story, reflect, grow, and connect through shared journaling—your private space for meaningful memories, prompts, and milestones.",
+      image: LoveLOgImg,
+      tags: ["JavaScript", "API", "CSS", "Supabase", "React"],
+      github: "https://github.com/27Adityasahil/LoveLog",
+      demo: "https://love-logg.vercel.app/"
     },
     {
       id: 3,
